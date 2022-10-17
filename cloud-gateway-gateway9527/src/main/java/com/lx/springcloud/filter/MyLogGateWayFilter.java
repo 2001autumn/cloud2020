@@ -11,7 +11,7 @@ import reactor.core.publisher.Mono;
 
 import java.util.Date;
 
-@Component
+
 @Slf4j
 public class MyLogGateWayFilter implements GlobalFilter, Ordered {
     @Override
